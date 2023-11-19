@@ -2,7 +2,7 @@ import cv2 as cv
 import matplotlib.pyplot as plt
 import numpy as np
 
-image = cv.imread("apple.jpg",0)
+image = cv.imread("apple.jpg", 0)
 image_height = image.shape[0]
 image_width = image.shape[1]
 Histogram =np.zeros([256])
